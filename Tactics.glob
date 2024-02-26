@@ -1,0 +1,811 @@
+DIGEST 09206407575d1fdaaa1ccd5153adff5c
+FLF.Tactics
+R23:26 LF.Poly <> <> lib
+prf 38:43 <> silly2
+R65:67 Coq.Init.Datatypes <> nat ind
+binder 55:55 <> n:1
+binder 57:57 <> m:2
+binder 59:59 <> o:3
+binder 61:61 <> p:4
+R78:83 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R74:76 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R73:73 LF.Tactics <> n:1 var
+R77:77 LF.Tactics <> m:2 var
+R84:84 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R107:113 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R90:93 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R86:88 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R85:85 LF.Tactics <> n:1 var
+R89:89 LF.Tactics <> m:2 var
+R99:101 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R94:94 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R96:96 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R98:98 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R95:95 LF.Tactics <> n:1 var
+R97:97 LF.Tactics <> o:3 var
+R102:102 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R104:104 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R106:106 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R103:103 LF.Tactics <> m:2 var
+R105:105 LF.Tactics <> p:4 var
+R119:121 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R114:114 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R116:116 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R118:118 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R115:115 LF.Tactics <> n:1 var
+R117:117 LF.Tactics <> o:3 var
+R122:122 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R124:124 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R126:126 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R123:123 LF.Tactics <> m:2 var
+R125:125 LF.Tactics <> p:4 var
+prf 200:206 <> silly2a
+R224:226 Coq.Init.Datatypes <> nat ind
+binder 218:218 <> n:5
+binder 220:220 <> m:6
+R245:250 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R237:239 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R232:232 LF.Poly <> :::'('_x_','_x_')' not
+R234:234 LF.Poly <> :::'('_x_','_x_')' not
+R236:236 LF.Poly <> :::'('_x_','_x_')' not
+R233:233 LF.Tactics <> n:5 var
+R235:235 LF.Tactics <> n:5 var
+R240:240 LF.Poly <> :::'('_x_','_x_')' not
+R242:242 LF.Poly <> :::'('_x_','_x_')' not
+R244:244 LF.Poly <> :::'('_x_','_x_')' not
+R241:241 LF.Tactics <> m:6 var
+R243:243 LF.Tactics <> m:6 var
+R251:251 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R298:304 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R266:268 Coq.Init.Datatypes <> nat ind
+binder 260:260 <> q:7
+binder 262:262 <> r:8
+R285:288 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R277:279 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R272:272 LF.Poly <> :::'('_x_','_x_')' not
+R274:274 LF.Poly <> :::'('_x_','_x_')' not
+R276:276 LF.Poly <> :::'('_x_','_x_')' not
+R273:273 LF.Tactics <> q:7 var
+R275:275 LF.Tactics <> q:7 var
+R280:280 LF.Poly <> :::'('_x_','_x_')' not
+R282:282 LF.Poly <> :::'('_x_','_x_')' not
+R284:284 LF.Poly <> :::'('_x_','_x_')' not
+R281:281 LF.Tactics <> r:8 var
+R283:283 LF.Tactics <> r:8 var
+R292:294 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R289:289 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R291:291 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R290:290 LF.Tactics <> q:7 var
+R295:295 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R297:297 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R296:296 LF.Tactics <> r:8 var
+R308:310 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R305:305 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R307:307 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R306:306 LF.Tactics <> n:5 var
+R311:311 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R313:313 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R312:312 LF.Tactics <> m:6 var
+def 387:389 <> odd
+R396:398 Coq.Init.Datatypes <> nat ind
+binder 393:393 <> n:9
+R403:406 LF.Basics <> bool ind
+R413:416 LF.Basics <> negb def
+R419:422 LF.Basics <> even def
+R424:424 LF.Tactics <> n:9 var
+prf 437:444 <> silly_ex
+binder 455:455 <> p:10
+R460:460 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R506:512 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 468:468 <> n:11
+R484:487 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R477:479 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R471:474 LF.Basics <> even def
+R476:476 LF.Tactics <> n:11 var
+R480:483 LF.Basics <> true constr
+R498:500 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R488:491 LF.Basics <> even def
+R494:494 Coq.Init.Datatypes <> S constr
+R496:496 LF.Tactics <> n:11 var
+R501:505 LF.Basics <> false constr
+R513:513 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R554:560 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 521:521 <> n:12
+R538:541 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R530:532 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R524:527 LF.Basics <> even def
+R529:529 LF.Tactics <> n:12 var
+R533:537 LF.Basics <> false constr
+R547:549 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R542:544 LF.Tactics <> odd def
+R546:546 LF.Tactics <> n:12 var
+R550:553 LF.Basics <> true constr
+R574:579 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R567:569 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R561:564 LF.Basics <> even def
+R566:566 LF.Tactics <> p:10 var
+R570:573 LF.Basics <> true constr
+R589:591 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R580:582 LF.Tactics <> odd def
+R585:585 Coq.Init.Datatypes <> S constr
+R587:587 LF.Tactics <> p:10 var
+R592:595 LF.Basics <> true constr
+prf 676:681 <> silly3
+R699:701 Coq.Init.Datatypes <> nat ind
+binder 693:693 <> n:13
+binder 695:695 <> m:14
+R712:717 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R708:710 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R707:707 LF.Tactics <> n:13 var
+R711:711 LF.Tactics <> m:14 var
+R719:721 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R718:718 LF.Tactics <> m:14 var
+R722:722 LF.Tactics <> n:13 var
+prf 781:793 <> rev_exercise1
+R812:815 LF.Poly <> list ind
+R817:819 Coq.Init.Datatypes <> nat ind
+binder 805:805 <> l:15
+binder 807:808 <> l':16
+R835:838 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R826:828 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R825:825 LF.Tactics <> l:15 var
+R829:831 LF.Poly <> rev def
+R833:834 LF.Tactics <> l':16 var
+R841:843 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R839:840 LF.Tactics <> l':16 var
+R844:846 LF.Poly <> rev def
+R848:848 LF.Tactics <> l:15 var
+R898:911 LF.Poly <> rev_involutive thm
+R898:911 LF.Poly <> rev_involutive thm
+R898:911 LF.Poly <> rev_involutive thm
+R938:941 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R929:931 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R932:934 LF.Poly <> rev def
+R947:949 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R942:944 LF.Poly <> rev def
+R950:952 LF.Poly <> rev def
+R955:957 LF.Poly <> rev def
+R938:941 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R929:931 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R932:934 LF.Poly <> rev def
+R947:949 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R942:944 LF.Poly <> rev def
+R950:952 LF.Poly <> rev def
+R955:957 LF.Poly <> rev def
+def 1049:1064 <> trans_eq_example
+R1090:1092 Coq.Init.Datatypes <> nat ind
+binder 1076:1076 <> a:17
+binder 1078:1078 <> b:18
+binder 1080:1080 <> c:19
+binder 1082:1082 <> d:20
+binder 1084:1084 <> e:21
+binder 1086:1086 <> f:22
+R1114:1122 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1106:1108 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1101:1101 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1103:1103 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1105:1105 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1102:1102 LF.Tactics <> a:17 var
+R1104:1104 LF.Tactics <> b:18 var
+R1109:1109 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1111:1111 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1113:1113 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1110:1110 LF.Tactics <> c:19 var
+R1112:1112 LF.Tactics <> d:20 var
+R1136:1144 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1128:1130 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1123:1123 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1125:1125 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1127:1127 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1124:1124 LF.Tactics <> c:19 var
+R1126:1126 LF.Tactics <> d:20 var
+R1131:1131 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1133:1133 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1135:1135 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1132:1132 LF.Tactics <> e:21 var
+R1134:1134 LF.Tactics <> f:22 var
+R1150:1152 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1145:1145 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1147:1147 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1149:1149 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1146:1146 LF.Tactics <> a:17 var
+R1148:1148 LF.Tactics <> b:18 var
+R1153:1153 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1155:1155 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1157:1157 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1154:1154 LF.Tactics <> e:21 var
+R1156:1156 LF.Tactics <> f:22 var
+prf 1258:1265 <> trans_eq
+binder 1277:1277 <> X:23
+R1294:1294 LF.Tactics <> X:23 var
+binder 1286:1286 <> n:24
+binder 1288:1288 <> m:25
+binder 1290:1290 <> o:26
+R1305:1308 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1301:1303 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1300:1300 LF.Tactics <> n:24 var
+R1304:1304 LF.Tactics <> m:25 var
+R1314:1317 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1310:1312 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1309:1309 LF.Tactics <> m:25 var
+R1313:1313 LF.Tactics <> o:26 var
+R1319:1321 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1318:1318 LF.Tactics <> n:24 var
+R1322:1322 LF.Tactics <> o:26 var
+def 1419:1435 <> trans_eq_example'
+R1461:1463 Coq.Init.Datatypes <> nat ind
+binder 1447:1447 <> a:27
+binder 1449:1449 <> b:28
+binder 1451:1451 <> c:29
+binder 1453:1453 <> d:30
+binder 1455:1455 <> e:31
+binder 1457:1457 <> f:32
+R1485:1493 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1477:1479 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1472:1472 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1474:1474 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1476:1476 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1473:1473 LF.Tactics <> a:27 var
+R1475:1475 LF.Tactics <> b:28 var
+R1480:1480 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1482:1482 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1484:1484 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1481:1481 LF.Tactics <> c:29 var
+R1483:1483 LF.Tactics <> d:30 var
+R1507:1515 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1499:1501 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1494:1494 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1496:1496 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1498:1498 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1495:1495 LF.Tactics <> c:29 var
+R1497:1497 LF.Tactics <> d:30 var
+R1502:1502 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1504:1504 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1506:1506 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1503:1503 LF.Tactics <> e:31 var
+R1505:1505 LF.Tactics <> f:32 var
+R1521:1523 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1516:1516 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1518:1518 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1520:1520 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1517:1517 LF.Tactics <> a:27 var
+R1519:1519 LF.Tactics <> b:28 var
+R1524:1524 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1526:1526 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1528:1528 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1525:1525 LF.Tactics <> e:31 var
+R1527:1527 LF.Tactics <> f:32 var
+R1594:1594 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1596:1596 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1598:1598 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1576:1583 LF.Tactics <> trans_eq thm
+R1594:1594 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1596:1596 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1598:1598 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1576:1583 LF.Tactics <> trans_eq thm
+def 1640:1657 <> trans_eq_example''
+R1683:1685 Coq.Init.Datatypes <> nat ind
+binder 1669:1669 <> a:33
+binder 1671:1671 <> b:34
+binder 1673:1673 <> c:35
+binder 1675:1675 <> d:36
+binder 1677:1677 <> e:37
+binder 1679:1679 <> f:38
+R1707:1715 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1699:1701 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1694:1694 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1696:1696 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1698:1698 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1695:1695 LF.Tactics <> a:33 var
+R1697:1697 LF.Tactics <> b:34 var
+R1702:1702 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1704:1704 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1706:1706 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1703:1703 LF.Tactics <> c:35 var
+R1705:1705 LF.Tactics <> d:36 var
+R1729:1737 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1721:1723 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1716:1716 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1718:1718 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1720:1720 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1717:1717 LF.Tactics <> c:35 var
+R1719:1719 LF.Tactics <> d:36 var
+R1724:1724 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1726:1726 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1728:1728 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1725:1725 LF.Tactics <> e:37 var
+R1727:1727 LF.Tactics <> f:38 var
+R1743:1745 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1738:1738 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1740:1740 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1742:1742 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1739:1739 LF.Tactics <> a:33 var
+R1741:1741 LF.Tactics <> b:34 var
+R1746:1746 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1748:1748 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1750:1750 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1747:1747 LF.Tactics <> e:37 var
+R1749:1749 LF.Tactics <> f:38 var
+R1805:1805 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1807:1807 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1809:1809 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1805:1805 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1807:1807 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R1809:1809 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+def 1850:1866 <> trans_eq_exercise
+R1888:1890 Coq.Init.Datatypes <> nat ind
+binder 1878:1878 <> n:39
+binder 1880:1880 <> m:40
+binder 1882:1882 <> o:41
+binder 1884:1884 <> p:42
+R1915:1923 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1900:1903 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1914:1914 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1899:1899 LF.Tactics <> m:40 var
+R1904:1911 LF.Basics <> minustwo def
+R1913:1913 LF.Tactics <> o:41 var
+R1935:1943 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1924:1924 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1930:1933 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1926:1928 LF.Basics <> ::nat_scope:x_'+'_x not
+R1925:1925 LF.Tactics <> n:39 var
+R1929:1929 LF.Tactics <> p:42 var
+R1934:1934 LF.Tactics <> m:40 var
+R1944:1944 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1950:1954 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1965:1965 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1946:1948 LF.Basics <> ::nat_scope:x_'+'_x not
+R1945:1945 LF.Tactics <> n:39 var
+R1949:1949 LF.Tactics <> p:42 var
+R1955:1962 LF.Basics <> minustwo def
+R1964:1964 LF.Tactics <> o:41 var
+prf 2047:2057 <> S_injective
+R2075:2077 Coq.Init.Datatypes <> nat ind
+binder 2069:2069 <> n:43
+binder 2071:2071 <> m:44
+R2092:2097 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2086:2088 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2083:2083 Coq.Init.Datatypes <> S constr
+R2085:2085 LF.Tactics <> n:43 var
+R2089:2089 Coq.Init.Datatypes <> S constr
+R2091:2091 LF.Tactics <> m:44 var
+R2099:2101 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2098:2098 LF.Tactics <> n:43 var
+R2102:2102 LF.Tactics <> m:44 var
+R2144:2146 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2147:2150 LF.Basics <> pred def
+R2153:2153 Coq.Init.Datatypes <> S constr
+R2144:2146 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2147:2150 LF.Basics <> pred def
+R2153:2153 Coq.Init.Datatypes <> S constr
+prf 2237:2248 <> S_injective'
+R2266:2268 Coq.Init.Datatypes <> nat ind
+binder 2260:2260 <> n:45
+binder 2262:2262 <> m:46
+R2283:2288 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2277:2279 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2274:2274 Coq.Init.Datatypes <> S constr
+R2276:2276 LF.Tactics <> n:45 var
+R2280:2280 Coq.Init.Datatypes <> S constr
+R2282:2282 LF.Tactics <> m:46 var
+R2290:2292 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2289:2289 LF.Tactics <> n:45 var
+R2293:2293 LF.Tactics <> m:46 var
+prf 2364:2376 <> injection_ex1
+R2396:2398 Coq.Init.Datatypes <> nat ind
+binder 2388:2388 <> n:47
+binder 2390:2390 <> m:48
+binder 2392:2392 <> o:49
+R2417:2420 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2409:2411 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2404:2404 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R2406:2406 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R2408:2408 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R2405:2405 LF.Tactics <> n:47 var
+R2407:2407 LF.Tactics <> m:48 var
+R2412:2412 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R2414:2414 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R2416:2416 LF.Poly <> :::'['_x_';'_'..'_';'_x_']' not
+R2413:2413 LF.Tactics <> o:49 var
+R2415:2415 LF.Tactics <> o:49 var
+R2422:2424 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2421:2421 LF.Tactics <> n:47 var
+R2425:2425 LF.Tactics <> m:48 var
+def 2554:2566 <> injection_ex3
+binder 2578:2578 <> X:50
+R2597:2597 LF.Tactics <> X:50 var
+binder 2589:2589 <> x:51
+binder 2591:2591 <> y:52
+binder 2593:2593 <> z:53
+R2607:2610 LF.Poly <> list ind
+R2612:2612 LF.Tactics <> X:50 var
+binder 2601:2601 <> l:54
+binder 2603:2603 <> j:55
+R2638:2643 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2629:2631 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2619:2622 LF.Poly <> :::x_'::'_x not
+R2618:2618 LF.Tactics <> x:51 var
+R2624:2627 LF.Poly <> :::x_'::'_x not
+R2623:2623 LF.Tactics <> y:52 var
+R2628:2628 LF.Tactics <> l:54 var
+R2633:2636 LF.Poly <> :::x_'::'_x not
+R2632:2632 LF.Tactics <> z:53 var
+R2637:2637 LF.Tactics <> j:55 var
+R2654:2659 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2645:2647 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2644:2644 LF.Tactics <> j:55 var
+R2649:2652 LF.Poly <> :::x_'::'_x not
+R2648:2648 LF.Tactics <> z:53 var
+R2653:2653 LF.Tactics <> l:54 var
+R2661:2663 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2660:2660 LF.Tactics <> x:51 var
+R2664:2664 LF.Tactics <> y:52 var
+R2758:2761 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2749:2751 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2744:2747 LF.Poly <> :::x_'::'_x not
+R2753:2756 LF.Poly <> :::x_'::'_x not
+R2763:2765 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2758:2761 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2749:2751 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2744:2747 LF.Poly <> :::x_'::'_x not
+R2753:2756 LF.Poly <> :::x_'::'_x not
+R2763:2765 Coq.Init.Logic <> ::type_scope:x_'='_x not
+prf 2901:2916 <> discriminate_ex1
+R2934:2936 Coq.Init.Datatypes <> nat ind
+binder 2928:2928 <> n:56
+binder 2930:2930 <> m:57
+R2954:2957 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2947:2949 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2942:2946 LF.Basics <> false constr
+R2950:2953 LF.Basics <> true constr
+R2959:2961 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2958:2958 LF.Tactics <> n:56 var
+R2962:2962 LF.Tactics <> m:57 var
+prf 3028:3043 <> discriminate_ex2
+R3059:3061 Coq.Init.Datatypes <> nat ind
+binder 3055:3055 <> n:58
+R3074:3079 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3070:3072 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3067:3067 Coq.Init.Datatypes <> S constr
+R3069:3069 LF.Tactics <> n:58 var
+R3073:3073 Coq.Init.Datatypes <> O constr
+R3085:3087 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3081:3083 LF.Basics <> ::nat_scope:x_'+'_x not
+def 3152:3167 <> discriminate_ex3
+binder 3181:3181 <> X:59
+R3200:3200 LF.Tactics <> X:59 var
+binder 3192:3192 <> x:60
+binder 3194:3194 <> y:61
+binder 3196:3196 <> z:62
+R3210:3213 LF.Poly <> list ind
+R3215:3215 LF.Tactics <> X:59 var
+binder 3204:3204 <> l:63
+binder 3206:3206 <> j:64
+R3237:3240 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3232:3234 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3222:3225 LF.Poly <> :::x_'::'_x not
+R3221:3221 LF.Tactics <> x:60 var
+R3227:3230 LF.Poly <> :::x_'::'_x not
+R3226:3226 LF.Tactics <> y:61 var
+R3231:3231 LF.Tactics <> l:63 var
+R3235:3236 LF.Poly <> :::'['_']' not
+R3242:3244 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3241:3241 LF.Tactics <> x:60 var
+R3245:3245 LF.Tactics <> z:62 var
+prf 3313:3319 <> eqb_0_l
+binder 3330:3330 <> n:65
+R3346:3349 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3339:3341 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3334:3337 LF.Basics <> ::nat_scope:x_'=?'_x not
+R3338:3338 LF.Tactics <> n:65 var
+R3342:3345 LF.Basics <> true constr
+R3351:3353 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3350:3350 LF.Tactics <> n:65 var
+prf 3491:3497 <> f_equal
+binder 3509:3509 <> A:66
+binder 3511:3511 <> B:67
+R3526:3529 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3525:3525 LF.Tactics <> A:66 var
+R3530:3530 LF.Tactics <> B:67 var
+binder 3522:3522 <> f:68
+R3539:3539 LF.Tactics <> A:66 var
+binder 3534:3534 <> x:69
+binder 3536:3536 <> y:70
+R3550:3553 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3546:3548 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3545:3545 LF.Tactics <> x:69 var
+R3549:3549 LF.Tactics <> y:70 var
+R3557:3559 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3554:3554 LF.Tactics <> f:68 var
+R3556:3556 LF.Tactics <> x:69 var
+R3560:3560 LF.Tactics <> f:68 var
+R3562:3562 LF.Tactics <> y:70 var
+prf 3632:3652 <> eq_implies_succ_equal
+R3670:3672 Coq.Init.Datatypes <> nat ind
+binder 3664:3664 <> n:71
+binder 3666:3666 <> m:72
+R3683:3686 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3679:3681 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3678:3678 LF.Tactics <> n:71 var
+R3682:3682 LF.Tactics <> m:72 var
+R3690:3692 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3687:3687 Coq.Init.Datatypes <> S constr
+R3689:3689 LF.Tactics <> n:71 var
+R3693:3693 Coq.Init.Datatypes <> S constr
+R3695:3695 LF.Tactics <> m:72 var
+R3725:3731 LF.Tactics <> f_equal thm
+R3725:3731 LF.Tactics <> f_equal thm
+prf 3757:3761 <> S_inj
+R3779:3781 Coq.Init.Datatypes <> nat ind
+binder 3773:3773 <> n:73
+binder 3775:3775 <> m:74
+R3789:3792 LF.Basics <> bool ind
+binder 3785:3785 <> b:75
+R3818:3823 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3798:3798 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3813:3816 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3799:3799 LF.Basics <> ::nat_scope:x_'=?'_x not
+R3803:3808 LF.Basics <> ::nat_scope:x_'=?'_x not
+R3812:3812 LF.Basics <> ::nat_scope:x_'=?'_x not
+R3800:3800 Coq.Init.Datatypes <> S constr
+R3802:3802 LF.Tactics <> n:73 var
+R3809:3809 Coq.Init.Datatypes <> S constr
+R3811:3811 LF.Tactics <> m:74 var
+R3817:3817 LF.Tactics <> b:75 var
+R3824:3824 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3831:3834 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3826:3829 LF.Basics <> ::nat_scope:x_'=?'_x not
+R3825:3825 LF.Tactics <> n:73 var
+R3830:3830 LF.Tactics <> m:74 var
+R3835:3835 LF.Tactics <> b:75 var
+prf 3898:3903 <> silly4
+R3925:3927 Coq.Init.Datatypes <> nat ind
+binder 3915:3915 <> n:76
+binder 3917:3917 <> m:77
+binder 3919:3919 <> p:78
+binder 3921:3921 <> q:79
+R3933:3933 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3948:3954 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3939:3942 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3935:3937 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3934:3934 LF.Tactics <> n:76 var
+R3938:3938 LF.Tactics <> m:77 var
+R3944:3946 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3943:3943 LF.Tactics <> p:78 var
+R3947:3947 LF.Tactics <> q:79 var
+R3960:3965 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3956:3958 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3955:3955 LF.Tactics <> m:77 var
+R3959:3959 LF.Tactics <> n:76 var
+R3967:3969 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3966:3966 LF.Tactics <> q:79 var
+R3970:3970 LF.Tactics <> p:78 var
+prf 4075:4097 <> double_injective_FAILED
+binder 4108:4108 <> n:80
+binder 4110:4110 <> m:81
+R4134:4139 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4123:4125 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4115:4120 LF.Induction <> double def
+R4122:4122 LF.Tactics <> n:80 var
+R4126:4131 LF.Induction <> double def
+R4133:4133 LF.Tactics <> m:81 var
+R4141:4143 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4140:4140 LF.Tactics <> n:80 var
+R4144:4144 LF.Tactics <> m:81 var
+R4447:4453 LF.Tactics <> f_equal thm
+R4447:4453 LF.Tactics <> f_equal thm
+prf 4472:4487 <> double_injective
+binder 4498:4498 <> n:82
+binder 4500:4500 <> m:83
+R4524:4529 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4513:4515 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4505:4510 LF.Induction <> double def
+R4512:4512 LF.Tactics <> n:82 var
+R4516:4521 LF.Induction <> double def
+R4523:4523 LF.Tactics <> m:83 var
+R4531:4533 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4530:4530 LF.Tactics <> n:82 var
+R4534:4534 LF.Tactics <> m:83 var
+R4819:4825 LF.Tactics <> f_equal thm
+R4819:4825 LF.Tactics <> f_equal thm
+prf 4901:4908 <> eqb_true
+binder 4919:4919 <> n:84
+binder 4921:4921 <> m:85
+R4939:4942 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4932:4934 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4927:4930 LF.Basics <> ::nat_scope:x_'=?'_x not
+R4926:4926 LF.Tactics <> n:84 var
+R4931:4931 LF.Tactics <> m:85 var
+R4935:4938 LF.Basics <> true constr
+R4944:4946 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4943:4943 LF.Tactics <> n:84 var
+R4947:4947 LF.Tactics <> m:85 var
+R5146:5152 LF.Tactics <> f_equal thm
+R5146:5152 LF.Tactics <> f_equal thm
+prf 5191:5208 <> plus_n_n_injective
+binder 5219:5219 <> n:86
+binder 5221:5221 <> m:87
+R5239:5244 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5231:5233 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5227:5229 LF.Basics <> ::nat_scope:x_'+'_x not
+R5226:5226 LF.Tactics <> n:86 var
+R5230:5230 LF.Tactics <> n:86 var
+R5235:5237 LF.Basics <> ::nat_scope:x_'+'_x not
+R5234:5234 LF.Tactics <> m:87 var
+R5238:5238 LF.Tactics <> m:87 var
+R5246:5248 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5245:5245 LF.Tactics <> n:86 var
+R5249:5249 LF.Tactics <> m:87 var
+R5450:5456 LF.Tactics <> f_equal thm
+R5450:5456 LF.Tactics <> f_equal thm
+R5516:5524 LF.Induction <> plus_n_Sm thm
+R5516:5524 LF.Induction <> plus_n_Sm thm
+R5516:5524 LF.Induction <> plus_n_Sm thm
+R5538:5546 LF.Induction <> plus_n_Sm thm
+R5538:5546 LF.Induction <> plus_n_Sm thm
+R5538:5546 LF.Induction <> plus_n_Sm thm
+prf 5612:5633 <> double_injective_take2
+binder 5644:5644 <> n:88
+binder 5646:5646 <> m:89
+R5670:5675 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5659:5661 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5651:5656 LF.Induction <> double def
+R5658:5658 LF.Tactics <> n:88 var
+R5662:5667 LF.Induction <> double def
+R5669:5669 LF.Tactics <> m:89 var
+R5677:5679 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5676:5676 LF.Tactics <> n:88 var
+R5680:5680 LF.Tactics <> m:89 var
+R6158:6164 LF.Tactics <> f_equal thm
+R6158:6164 LF.Tactics <> f_equal thm
+prf 6233:6252 <> nth_error_after_last
+R6267:6269 Coq.Init.Datatypes <> nat ind
+binder 6263:6263 <> n:90
+binder 6273:6273 <> X:91
+R6288:6291 LF.Poly <> list ind
+R6293:6293 LF.Tactics <> X:91 var
+binder 6284:6284 <> l:92
+R6311:6314 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6307:6309 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6299:6304 LF.Poly <> length def
+R6306:6306 LF.Tactics <> l:92 var
+R6310:6310 LF.Tactics <> n:90 var
+R6328:6330 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6315:6323 LF.Poly <> nth_error def
+R6327:6327 LF.Tactics <> n:90 var
+R6325:6325 LF.Tactics <> l:92 var
+R6331:6334 LF.Poly <> None constr
+def 6644:6649 <> square
+binder 6651:6651 <> n:93
+R6657:6659 LF.Basics <> ::nat_scope:x_'*'_x not
+R6656:6656 LF.Tactics <> n:93 var
+R6660:6660 LF.Tactics <> n:93 var
+prf 6670:6680 <> square_mult
+binder 6691:6691 <> n:94
+binder 6693:6693 <> m:95
+R6710:6712 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6696:6701 LF.Tactics <> square def
+R6705:6707 LF.Basics <> ::nat_scope:x_'*'_x not
+R6704:6704 LF.Tactics <> n:94 var
+R6708:6708 LF.Tactics <> m:95 var
+R6721:6723 LF.Basics <> ::nat_scope:x_'*'_x not
+R6713:6718 LF.Tactics <> square def
+R6720:6720 LF.Tactics <> n:94 var
+R6724:6729 LF.Tactics <> square def
+R6731:6731 LF.Tactics <> m:95 var
+R6764:6769 LF.Tactics <> square def
+R6782:6791 LF.Induction <> mult_assoc thm
+R6782:6791 LF.Induction <> mult_assoc thm
+R6782:6791 LF.Induction <> mult_assoc thm
+R6817:6819 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6813:6815 LF.Basics <> ::nat_scope:x_'*'_x not
+R6809:6811 LF.Basics <> ::nat_scope:x_'*'_x not
+R6825:6827 LF.Basics <> ::nat_scope:x_'*'_x not
+R6821:6823 LF.Basics <> ::nat_scope:x_'*'_x not
+R6817:6819 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6813:6815 LF.Basics <> ::nat_scope:x_'*'_x not
+R6809:6811 LF.Basics <> ::nat_scope:x_'*'_x not
+R6825:6827 LF.Basics <> ::nat_scope:x_'*'_x not
+R6821:6823 LF.Basics <> ::nat_scope:x_'*'_x not
+R6846:6853 LF.Induction <> mul_comm thm
+R6846:6853 LF.Induction <> mul_comm thm
+R6846:6853 LF.Induction <> mul_comm thm
+R6862:6871 LF.Induction <> mult_assoc thm
+R6862:6871 LF.Induction <> mult_assoc thm
+R6897:6906 LF.Induction <> mult_assoc thm
+R6897:6906 LF.Induction <> mult_assoc thm
+R6897:6906 LF.Induction <> mult_assoc thm
+def 6939:6941 <> bar
+binder 6943:6943 <> x:96
+R6956:6956 LF.Tactics <> x:96 var
+R6967:6967 Coq.Init.Datatypes <> O constr
+R6978:6978 Coq.Init.Datatypes <> S constr
+prf 7000:7018 <> silly_fact_2_FAILED
+binder 7029:7029 <> m:98
+R7041:7043 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7037:7039 LF.Basics <> ::nat_scope:x_'+'_x not
+R7032:7034 LF.Tactics <> bar def
+R7036:7036 LF.Tactics <> m:98 var
+R7055:7057 LF.Basics <> ::nat_scope:x_'+'_x not
+R7044:7046 LF.Tactics <> bar def
+R7050:7052 LF.Basics <> ::nat_scope:x_'+'_x not
+R7049:7049 LF.Tactics <> m:98 var
+prf 7122:7133 <> silly_fact_2
+binder 7144:7144 <> m:99
+R7156:7158 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7152:7154 LF.Basics <> ::nat_scope:x_'+'_x not
+R7147:7149 LF.Tactics <> bar def
+R7151:7151 LF.Tactics <> m:99 var
+R7170:7172 LF.Basics <> ::nat_scope:x_'+'_x not
+R7159:7161 LF.Tactics <> bar def
+R7165:7167 LF.Basics <> ::nat_scope:x_'+'_x not
+R7164:7164 LF.Tactics <> m:99 var
+prf 7274:7286 <> silly_fact_2'
+binder 7297:7297 <> m:100
+R7309:7311 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7305:7307 LF.Basics <> ::nat_scope:x_'+'_x not
+R7300:7302 LF.Tactics <> bar def
+R7304:7304 LF.Tactics <> m:100 var
+R7323:7325 LF.Basics <> ::nat_scope:x_'+'_x not
+R7312:7314 LF.Tactics <> bar def
+R7318:7320 LF.Basics <> ::nat_scope:x_'+'_x not
+R7317:7317 LF.Tactics <> m:100 var
+R7357:7359 LF.Tactics <> bar def
+def 7433:7440 <> sillyfun
+R7447:7449 Coq.Init.Datatypes <> nat ind
+binder 7443:7443 <> n:101
+R7454:7457 LF.Basics <> bool ind
+R7468:7471 LF.Basics <> ::nat_scope:x_'=?'_x not
+R7467:7467 LF.Tactics <> n:101 var
+R7496:7499 LF.Basics <> ::nat_scope:x_'=?'_x not
+R7495:7495 LF.Tactics <> n:101 var
+R7520:7524 LF.Basics <> false constr
+R7507:7511 LF.Basics <> false constr
+R7479:7483 LF.Basics <> false constr
+prf 7536:7549 <> sillyfun_false
+R7565:7567 Coq.Init.Datatypes <> nat ind
+binder 7561:7561 <> n:102
+R7583:7585 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7573:7580 LF.Tactics <> sillyfun def
+R7582:7582 LF.Tactics <> n:102 var
+R7586:7590 LF.Basics <> false constr
+R7619:7626 LF.Tactics <> sillyfun def
+R7642:7645 LF.Basics <> ::nat_scope:x_'=?'_x not
+R7642:7645 LF.Basics <> ::nat_scope:x_'=?'_x not
+R7734:7737 LF.Basics <> ::nat_scope:x_'=?'_x not
+R7734:7737 LF.Basics <> ::nat_scope:x_'=?'_x not
+def 7847:7851 <> split
+binder 7854:7854 <> X:103
+binder 7856:7856 <> Y:104
+R7871:7874 LF.Poly <> list ind
+R7878:7878 LF.Poly <> ::type_scope:x_'*'_x not
+R7877:7877 LF.Tactics <> X:103 var
+R7879:7879 LF.Tactics <> Y:104 var
+binder 7867:7867 <> l:105
+R7900:7900 LF.Poly <> ::type_scope:x_'*'_x not
+R7907:7911 LF.Poly <> ::type_scope:x_'*'_x not
+R7918:7918 LF.Poly <> ::type_scope:x_'*'_x not
+R7901:7904 LF.Poly <> list ind
+R7906:7906 LF.Tactics <> X:103 var
+R7912:7915 LF.Poly <> list ind
+R7917:7917 LF.Tactics <> Y:104 var
+R7931:7931 LF.Tactics <> l:105 var
+R7942:7943 LF.Poly <> :::'['_']' not
+R7948:7948 LF.Poly <> :::'('_x_','_x_')' not
+R7951:7952 LF.Poly <> :::'('_x_','_x_')' not
+R7955:7955 LF.Poly <> :::'('_x_','_x_')' not
+R7949:7950 LF.Poly <> :::'['_']' not
+R7953:7954 LF.Poly <> :::'['_']' not
+R7967:7970 LF.Poly <> :::x_'::'_x not
+R7961:7961 LF.Poly <> :::'('_x_','_x_')' not
+R7963:7964 LF.Poly <> :::'('_x_','_x_')' not
+R7966:7966 LF.Poly <> :::'('_x_','_x_')' not
+R7988:7992 LF.Tactics <> split:106 def
+R8009:8009 LF.Poly <> :::'('_x_','_x_')' not
+R8012:8013 LF.Poly <> :::'('_x_','_x_')' not
+R8016:8016 LF.Poly <> :::'('_x_','_x_')' not
+R8021:8021 LF.Poly <> :::'('_x_','_x_')' not
+R8029:8030 LF.Poly <> :::'('_x_','_x_')' not
+R8038:8038 LF.Poly <> :::'('_x_','_x_')' not
+R8023:8026 LF.Poly <> :::x_'::'_x not
+R8032:8035 LF.Poly <> :::x_'::'_x not
