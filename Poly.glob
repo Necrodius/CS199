@@ -10,6 +10,10 @@ binder 83:83 <> x:4
 R95:98 LF.Poly <> list:2 ind
 R100:100 LF.Poly <> X:1 var
 binder 91:91 <> l:5
+scheme 41:44 <> list_rect
+scheme 41:44 <> list_ind
+scheme 41:44 <> list_rec
+scheme 41:44 <> list_sind
 def 114:119 <> repeat
 binder 122:122 <> X:6
 R137:137 LF.Poly <> X:6 var
@@ -239,6 +243,10 @@ R2720:2720 LF.Poly <> X:43 var
 binder 2716:2716 <> x:47
 R2728:2728 LF.Poly <> Y:44 var
 binder 2724:2724 <> y:48
+scheme 2680:2683 <> prod_rect
+scheme 2680:2683 <> prod_ind
+scheme 2680:2683 <> prod_rec
+scheme 2680:2683 <> prod_sind
 R2743:2746 LF.Poly <> pair constr
 R2743:2746 LF.Poly <> pair constr
 R2783:2786 LF.Poly <> pair constr
@@ -398,6 +406,10 @@ constr 3757:3760 <> None
 binder 3718:3718 <> X:75
 R3750:3750 LF.Poly <> X:75 var
 binder 3746:3746 <> x:78
+scheme 3710:3715 <> option_rect
+scheme 3710:3715 <> option_ind
+scheme 3710:3715 <> option_rec
+scheme 3710:3715 <> option_sind
 R3773:3776 LF.Poly <> Some constr
 R3773:3776 LF.Poly <> Some constr
 R3793:3796 LF.Poly <> None constr

@@ -1,0 +1,201 @@
+DIGEST ab4c7fe2e72740dd86c3b29b65f1bff0
+FLF.Fifo
+R23:27 LF.Logic <> <> lib
+ind 41:43 <> job
+constr 57:61 <> taskj
+R69:71 Coq.Init.Datatypes <> nat ind
+binder 64:65 <> id:3
+R88:90 Coq.Init.Datatypes <> nat ind
+binder 75:84 <> burst_time:4
+scheme 41:43 <> job_rect
+scheme 41:43 <> job_ind
+scheme 41:43 <> job_rec
+scheme 41:43 <> job_sind
+R123:127 LF.Fifo <> taskj constr
+not 104:104 <> :::'job('_x_','_x_')'
+ind 181:187 <> process
+constr 201:205 <> taskp
+R213:215 Coq.Init.Datatypes <> nat ind
+binder 208:209 <> id:7
+R232:234 Coq.Init.Datatypes <> nat ind
+binder 219:228 <> start_time:8
+R249:251 Coq.Init.Datatypes <> nat ind
+binder 238:245 <> end_time:9
+scheme 181:187 <> process_rect
+scheme 181:187 <> process_ind
+scheme 181:187 <> process_rec
+scheme 181:187 <> process_sind
+R289:293 LF.Fifo <> taskp constr
+not 265:265 <> :::'proc('_x_','_x_','_x_')'
+ind 351:357 <> joblist
+constr 373:377 <> empty
+constr 383:387 <> tcons
+R394:396 LF.Fifo <> job ind
+binder 390:390 <> t:12
+R404:410 LF.Fifo <> joblist:10 ind
+binder 400:400 <> l:13
+scheme 351:357 <> joblist_rect
+scheme 351:357 <> joblist_ind
+scheme 351:357 <> joblist_rec
+scheme 351:357 <> joblist_sind
+R437:441 LF.Fifo <> tcons constr
+not 424:424 <> :::x_';;'_x
+def 496:500 <> fetch
+R507:509 LF.Fifo <> job ind
+binder 503:503 <> j:14
+R517:519 Coq.Init.Datatypes <> nat ind
+binder 513:513 <> t:15
+R524:530 LF.Fifo <> process ind
+R543:543 LF.Fifo <> j:14 var
+R554:557 LF.Fifo <> :::'job('_x_','_x_')' not
+R560:560 LF.Fifo <> :::'job('_x_','_x_')' not
+R566:566 LF.Fifo <> :::'job('_x_','_x_')' not
+R571:575 LF.Fifo <> :::'proc('_x_','_x_','_x_')' not
+R578:578 LF.Fifo <> :::'proc('_x_','_x_','_x_')' not
+R580:581 LF.Fifo <> :::'proc('_x_','_x_','_x_')' not
+R589:590 LF.Fifo <> :::'proc('_x_','_x_','_x_')' not
+R579:579 LF.Fifo <> t:15 var
+R583:583 LF.Basics <> ::nat_scope:x_'+'_x not
+R582:582 LF.Fifo <> t:15 var
+def 609:612 <> fifo
+R619:625 LF.Fifo <> joblist ind
+binder 615:615 <> l:17
+R633:635 Coq.Init.Datatypes <> nat ind
+binder 629:629 <> t:18
+R640:643 LF.Poly <> list ind
+R645:651 LF.Fifo <> process ind
+R664:664 LF.Fifo <> l:17 var
+R675:679 LF.Fifo <> empty constr
+R684:686 LF.Poly <> nil constr
+R692:692 LF.Fifo <> :::x_';;'_x not
+R707:711 LF.Fifo <> :::x_';;'_x not
+R693:697 LF.Fifo <> taskj constr
+R717:717 LF.Poly <> :::x_'::'_x not
+R742:747 LF.Poly <> :::x_'::'_x not
+R766:766 LF.Poly <> :::x_'::'_x not
+R718:722 LF.Fifo <> fetch def
+R725:728 LF.Fifo <> :::'job('_x_','_x_')' not
+R731:732 LF.Fifo <> :::'job('_x_','_x_')' not
+R738:738 LF.Fifo <> :::'job('_x_','_x_')' not
+R741:741 LF.Fifo <> t:18 var
+R748:751 LF.Fifo <> fifo:19 def
+R757:759 LF.Basics <> ::nat_scope:x_'+'_x not
+R756:756 LF.Fifo <> t:18 var
+R753:753 LF.Fifo <> l:17 var
+def 787:795 <> get_burst
+R802:804 LF.Fifo <> job ind
+binder 798:798 <> j:21
+R809:811 Coq.Init.Datatypes <> nat ind
+R824:824 LF.Fifo <> j:21 var
+R835:838 LF.Fifo <> :::'job('_x_','_x_')' not
+R841:841 LF.Fifo <> :::'job('_x_','_x_')' not
+R852:852 LF.Fifo <> :::'job('_x_','_x_')' not
+def 887:905 <> get_processing_time
+R912:918 LF.Fifo <> process ind
+binder 908:908 <> p:23
+R923:925 Coq.Init.Datatypes <> nat ind
+R938:938 LF.Fifo <> p:23 var
+R949:953 LF.Fifo <> :::'proc('_x_','_x_','_x_')' not
+R956:956 LF.Fifo <> :::'proc('_x_','_x_','_x_')' not
+R967:967 LF.Fifo <> :::'proc('_x_','_x_','_x_')' not
+R976:976 LF.Fifo <> :::'proc('_x_','_x_','_x_')' not
+R989:991 LF.Basics <> ::nat_scope:x_'-'_x not
+ind 1021:1025 <> sound
+constr 1059:1073 <> sound_procedure
+R1032:1035 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1029:1031 LF.Fifo <> job ind
+R1043:1046 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1036:1042 LF.Fifo <> process ind
+binder 1084:1084 <> j:27
+binder 1086:1086 <> p:28
+R1128:1131 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1089:1089 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1101:1105 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1127:1127 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1090:1098 LF.Fifo <> get_burst def
+R1100:1100 LF.Fifo <> j:27 var
+R1106:1124 LF.Fifo <> get_processing_time def
+R1126:1126 LF.Fifo <> p:28 var
+R1132:1136 LF.Fifo <> sound:25 ind
+R1140:1140 LF.Fifo <> p:28 var
+R1138:1138 LF.Fifo <> j:27 var
+scheme 1021:1025 <> sound_ind
+scheme 1021:1025 <> sound_sind
+prf 1152:1159 <> helper_0
+R1175:1177 Coq.Init.Datatypes <> nat ind
+binder 1171:1171 <> n:29
+R1190:1192 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1186:1188 LF.Basics <> ::nat_scope:x_'-'_x not
+R1182:1184 LF.Basics <> ::nat_scope:x_'+'_x not
+R1181:1181 LF.Fifo <> n:29 var
+R1189:1189 LF.Fifo <> n:29 var
+prf 1304:1311 <> helper_1
+R1329:1331 Coq.Init.Datatypes <> nat ind
+binder 1323:1323 <> a:30
+binder 1325:1325 <> b:31
+R1344:1346 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1340:1342 LF.Basics <> ::nat_scope:x_'-'_x not
+R1336:1338 LF.Basics <> ::nat_scope:x_'+'_x not
+R1335:1335 LF.Fifo <> a:30 var
+R1339:1339 LF.Fifo <> b:31 var
+R1343:1343 LF.Fifo <> a:30 var
+R1347:1347 LF.Fifo <> b:31 var
+R1428:1430 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1424:1426 LF.Basics <> ::nat_scope:x_'-'_x not
+R1428:1430 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1424:1426 LF.Basics <> ::nat_scope:x_'-'_x not
+prf 1604:1617 <> fetch_is_sound
+R1633:1635 LF.Fifo <> job ind
+binder 1629:1629 <> j:32
+R1643:1645 Coq.Init.Datatypes <> nat ind
+binder 1639:1639 <> t:33
+R1649:1653 LF.Fifo <> sound ind
+R1655:1655 LF.Fifo <> j:32 var
+R1658:1662 LF.Fifo <> fetch def
+R1664:1664 LF.Fifo <> j:32 var
+R1666:1666 LF.Fifo <> t:33 var
+R1736:1750 LF.Fifo <> sound_procedure constr
+R1736:1750 LF.Fifo <> sound_procedure constr
+R1872:1886 LF.Fifo <> sound_procedure constr
+R1872:1886 LF.Fifo <> sound_procedure constr
+R1960:1967 LF.Fifo <> helper_0 thm
+R1960:1967 LF.Fifo <> helper_0 thm
+R1960:1967 LF.Fifo <> helper_0 thm
+R2004:2011 LF.Fifo <> helper_1 thm
+R2004:2011 LF.Fifo <> helper_1 thm
+R2004:2011 LF.Fifo <> helper_1 thm
+R2180:2183 LF.Fifo <> :::x_';;'_x not
+R2171:2174 LF.Fifo <> :::'job('_x_','_x_')' not
+R2176:2177 LF.Fifo <> :::'job('_x_','_x_')' not
+R2179:2179 LF.Fifo <> :::'job('_x_','_x_')' not
+R2193:2196 LF.Fifo <> :::x_';;'_x not
+R2184:2187 LF.Fifo <> :::'job('_x_','_x_')' not
+R2189:2190 LF.Fifo <> :::'job('_x_','_x_')' not
+R2192:2192 LF.Fifo <> :::'job('_x_','_x_')' not
+R2206:2208 LF.Fifo <> :::x_';;'_x not
+R2197:2200 LF.Fifo <> :::'job('_x_','_x_')' not
+R2202:2203 LF.Fifo <> :::'job('_x_','_x_')' not
+R2205:2205 LF.Fifo <> :::'job('_x_','_x_')' not
+R2217:2219 LF.Fifo <> :::x_';;'_x not
+R2209:2212 LF.Fifo <> :::'job('_x_','_x_')' not
+R2214:2214 LF.Fifo <> :::'job('_x_','_x_')' not
+R2216:2216 LF.Fifo <> :::'job('_x_','_x_')' not
+R2220:2224 LF.Fifo <> empty constr
+R2235:2238 LF.Fifo <> fifo def
+R2250:2253 LF.Fifo <> :::x_';;'_x not
+R2241:2244 LF.Fifo <> :::'job('_x_','_x_')' not
+R2246:2247 LF.Fifo <> :::'job('_x_','_x_')' not
+R2249:2249 LF.Fifo <> :::'job('_x_','_x_')' not
+R2263:2266 LF.Fifo <> :::x_';;'_x not
+R2254:2257 LF.Fifo <> :::'job('_x_','_x_')' not
+R2259:2260 LF.Fifo <> :::'job('_x_','_x_')' not
+R2262:2262 LF.Fifo <> :::'job('_x_','_x_')' not
+R2276:2278 LF.Fifo <> :::x_';;'_x not
+R2267:2270 LF.Fifo <> :::'job('_x_','_x_')' not
+R2272:2273 LF.Fifo <> :::'job('_x_','_x_')' not
+R2275:2275 LF.Fifo <> :::'job('_x_','_x_')' not
+R2287:2289 LF.Fifo <> :::x_';;'_x not
+R2279:2282 LF.Fifo <> :::'job('_x_','_x_')' not
+R2284:2284 LF.Fifo <> :::'job('_x_','_x_')' not
+R2286:2286 LF.Fifo <> :::'job('_x_','_x_')' not
+R2290:2294 LF.Fifo <> empty constr

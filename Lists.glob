@@ -6,6 +6,10 @@ constr 67:70 <> pair
 R81:83 Coq.Init.Datatypes <> nat ind
 binder 73:74 <> n1:3
 binder 76:77 <> n2:4
+scheme 45:51 <> natprod_rect
+scheme 45:51 <> natprod_ind
+scheme 45:51 <> natprod_rec
+scheme 45:51 <> natprod_sind
 def 99:101 <> fst
 R108:114 LF.Lists <> natprod ind
 binder 104:104 <> p:5
@@ -109,6 +113,10 @@ R1097:1099 Coq.Init.Datatypes <> nat ind
 binder 1093:1093 <> n:19
 R1107:1113 LF.Lists <> natlist:17 ind
 binder 1103:1103 <> l:20
+scheme 1057:1063 <> natlist_rect
+scheme 1057:1063 <> natlist_ind
+scheme 1057:1063 <> natlist_rec
+scheme 1057:1063 <> natlist_sind
 R1140:1143 LF.Lists <> cons constr
 not 1127:1127 <> :::x_'::'_x
 R1225:1227 LF.Lists <> nil constr
@@ -1095,6 +1103,10 @@ constr 12403:12406 <> Some
 constr 12422:12425 <> None
 R12413:12415 Coq.Init.Datatypes <> nat ind
 binder 12409:12409 <> n:123
+scheme 12379:12387 <> natoption_rect
+scheme 12379:12387 <> natoption_ind
+scheme 12379:12387 <> natoption_rec
+scheme 12379:12387 <> natoption_sind
 def 12438:12446 <> nth_error
 R12451:12457 LF.Lists <> natlist ind
 binder 12449:12449 <> l:124
@@ -1191,6 +1203,10 @@ ind 13560:13561 <> id
 constr 13577:13578 <> Id
 R13585:13587 Coq.Init.Datatypes <> nat ind
 binder 13581:13581 <> n:138
+scheme 13560:13561 <> id_rect
+scheme 13560:13561 <> id_ind
+scheme 13560:13561 <> id_rec
+scheme 13560:13561 <> id_sind
 def 13603:13608 <> eqb_id
 R13619:13620 LF.Lists <> id ind
 binder 13611:13612 <> x1:139
@@ -1216,6 +1232,10 @@ R13927:13929 Coq.Init.Datatypes <> nat ind
 binder 13923:13923 <> v:147
 R13937:13947 LF.Lists <> partial_map:144 ind
 binder 13933:13933 <> m:148
+scheme 13870:13880 <> partial_map_rect
+scheme 13870:13880 <> partial_map_ind
+scheme 13870:13880 <> partial_map_rec
+scheme 13870:13880 <> partial_map_sind
 def 13963:13968 <> update
 R13975:13985 LF.Lists <> partial_map ind
 binder 13971:13971 <> d:149

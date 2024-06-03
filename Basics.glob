@@ -3,6 +3,10 @@ FLF.Basics
 ind 10:13 <> bool
 constr 29:32 <> true
 constr 38:42 <> false
+scheme 10:13 <> bool_rect
+scheme 10:13 <> bool_ind
+scheme 10:13 <> bool_rec
+scheme 10:13 <> bool_sind
 def 57:60 <> negb
 R65:68 LF.Basics <> bool ind
 binder 63:63 <> b:3
@@ -176,6 +180,10 @@ constr 2015:2015 NatPlayground O
 constr 2021:2021 NatPlayground S
 R2028:2030 LF.Basics <> nat:21 ind
 binder 2024:2024 <> n:23
+scheme 1997:1999 NatPlayground nat_rect
+scheme 1997:1999 NatPlayground nat_ind
+scheme 1997:1999 NatPlayground nat_rec
+scheme 1997:1999 NatPlayground nat_sind
 R2039:2051 LF.Basics NatPlayground <> mod
 def 2066:2069 <> pred
 R2076:2078 Coq.Init.Datatypes <> nat ind
